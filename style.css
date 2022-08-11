@@ -119,6 +119,7 @@ a {
 .box-wrapper {
     display: flex;
     flex-direction: column;
+    margin-bottom: 100px;
 }
 
 .subtext {
@@ -126,4 +127,28 @@ a {
     text-align: center;
     margin-top: 8px;
     color: #676767;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 400px;
+    padding: 100px 480px 100px 580px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.author {
+    align-self: flex-end;
+    color: #1F2937;
+    font-weight: 700;
+    font-size: 18px;
+    padding-right: 220px;
 }
