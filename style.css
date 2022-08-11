@@ -136,7 +136,7 @@ a {
     align-items: center;
     background-color: #E5E7EB;
     height: 400px;
-    padding: 100px 480px 100px 580px;
+    padding: 100px 500px 100px 580px;
 }
 
 .quote {
@@ -151,4 +151,36 @@ a {
     font-weight: 700;
     font-size: 18px;
     padding-right: 220px;
+}
+
+.call-to-action-container {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-box {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    background-color: #3882F6;
+    padding: 50px 100px 50px 100px;
+    border-radius: 10px;
+}
+
+.action-bold-text {
+    font-weight: 700;
+    font-size: 18px;
+    color: #F9FAF8;
+    margin-left: 1px;
+}
+
+.action-text {
+    color:#E5E7EB
+}
+
+#nohero {
+    border: 2px solid #F9FAF8;
+    justify-self: flex-end;
 }
