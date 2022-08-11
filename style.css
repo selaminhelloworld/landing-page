@@ -7,6 +7,7 @@
 
 body {
     display: flex;
+    flex-direction: column;
     margin: 0;
 }
 
@@ -14,7 +15,7 @@ nav {
     flex: 1;
     display: flex;
     background-color: #1F2937;
-    padding: 0px 250px;
+    padding: 0px 350px;
     align-items: center;
     justify-content: space-between;
     margin: 0;
@@ -22,7 +23,7 @@ nav {
 
 .header {
     font-size: 24px;
-    color: #E5E7EB;
+    color: #F9FAF8;
     font-weight:bold;
 }
 
@@ -39,4 +40,50 @@ ul {
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.media {
+    display: flex;
+    background-color: #1F2937;
+    padding: 100px 350px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 649px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 700;
+    width: 140px;
+    border-radius: 7px;
+    padding: 10px;
+    margin-top: 15px;
+    box-shadow: none;
+    border: none;
+}
+
+.placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    margin-left: 200px;
+    background-color: rgb(128, 138, 148);
+    color: #F9FAF8;
 }
